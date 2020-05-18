@@ -13,6 +13,7 @@
       "textPosition": "RIGHT"
     }
   },*/
+  /*
   "info-card": {
     "props": {
     "isFullModeStyle": false,
@@ -25,7 +26,7 @@
     "callToActionUrl": "/sale/d",
     "textAlignment": "center"
     }
-  },
+  },*/
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
