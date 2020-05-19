@@ -4,8 +4,10 @@
       //"rich-text",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row",
-      "shelf"
+      "slider-layout#home"
+      //"flex-layout.row",
+      //"shelf",
+      
     ]
   },
   /*
@@ -56,8 +58,9 @@
       "textAlignment": "center",
       "blockClass": "metal"
     }
-  },
+  }
   //ejemplo del curso
+  /*
   "flex-layout.row":{
     "children": [
       "info-card#rethink",
@@ -82,7 +85,7 @@
     "props": {
       "text": "I'll be deleted soon"
     }
-  }*/
+  }
   "flex-layout.col":{
     "children": [
       "image#electronics",
@@ -100,5 +103,6 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
-  }
+  }*/
+ 
 }
