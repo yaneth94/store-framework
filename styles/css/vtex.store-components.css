@@ -33,3 +33,7 @@
 .infoCardContainer--metal {
     background-color: #e1e1e1
 }
+
+.flexRowContainer {
+    margin: 10px 10px;
+}
