@@ -17,7 +17,7 @@
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
-  },*/
+  },
   "info-card": {
     "props": {
     "isFullModeStyle": false,
