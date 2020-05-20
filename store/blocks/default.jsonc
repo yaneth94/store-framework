@@ -31,6 +31,7 @@
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
+      "product-summary-sku-selector", //agregado por la practica #22
       "product-summary-buy-button"
     ]
   }
