@@ -4,7 +4,7 @@
         "product-summary.shelf"
     ],
     "props": {
-      "category": 10002,
+      "category": 10005,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
