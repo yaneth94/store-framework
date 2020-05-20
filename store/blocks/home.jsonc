@@ -6,9 +6,9 @@
       //"info-card#button-left",
       //"slider-layout#home"
       //"flex-layout.row",
-      //"shelf",
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "shelf"
+      //"responsive-layout.desktop#desktop",
+      //"responsive-layout.mobile#mobile"
     ]
   },
   /*
@@ -17,7 +17,7 @@
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
-  },
+  },*/
   "info-card": {
     "props": {
     "isFullModeStyle": false,
