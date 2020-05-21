@@ -1,7 +1,9 @@
 {
     "store.custom#about-us": {
         "blocks": [
-            "flex-layout.row#about-us"
+            "flex-layout.row#about-us",
+            //"tab-layout",
+            "tab-layout#home"
         ]
     },
     "flex-layout.row#about-us": {
@@ -35,6 +37,128 @@
         "props": {
           "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
           "maxHeight": "600px"
+        }
+      },/*
+      "tab-layout": {
+        "children": [
+          "tab-list",
+          "tab-content"
+        ]
+      },
+      "tab-list": {
+        "children": [
+          "tab-list.item#1",
+          "tab-list.item#2"
+          ]
+      },
+      "tab-content": {
+        "children": [
+          "tab-content.item#1",
+          "tab-content.item#2"
+          ]
+      },
+      "tab-list.item#1": {
+        "props": {
+          "tabId": "majorAppliances",
+          "label": "Major Appliances",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#2": {
+        "props": {
+          "tabId": "electronics",
+          "label": "Electronics"
+        }
+      },
+      "tab-content.item#1": {
+        "children": [
+          "rich-text#1"
+        ],
+        "props": {
+          "tabId": "majorAppliances"
+        }
+      },
+      "tab-content.item#2": {
+        "children": [
+          "rich-text#2"
+        ],
+        "props": {
+          "tabId": "electronics"
+        }
+      },
+      "rich-text#1": {
+        "props": {
+          "text": "Texto para Major Appliances",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+      "rich-text#2": {
+        "props": {
+          "text": "Texto para Electronics",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },*/
+      "tab-layout#home":{
+        "children":[
+          "tab-list#home",
+          "tab-content#home"
+        ]
+      },
+      "tab-list#home":{
+        "children":[
+          "tab-list.item#home1",
+          "tab-list.item#home2"
+        ]
+      },
+      "tab-list.item#home1":{
+        "props": {
+          "tabId": "majorAppliances",
+          "label": "Major Appliances",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#home2":{
+        "props": {
+          "tabId": "electronics",
+          "label": "Electronics"
+        }
+      },
+      "rich-text#3": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+      "rich-text#4": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+      "tab-content#home":{
+        "children":[
+          "tab-content.item#home1",
+          "tab-content.item#home2"
+        ]
+      },
+      "tab-content.item#home1":{
+        "children": [
+          "rich-text#3"
+        ],
+        "props": {
+          "tabId": "majorAppliances"
+        }
+      },
+      "tab-content.item#home2":{
+        "children": [
+          "rich-text#4"
+        ],
+        "props": {
+          "tabId": "electronics"
         }
       }
 }
