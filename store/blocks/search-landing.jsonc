@@ -1,0 +1,23 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner":{
+        "props":{
+            "minWidth": "100%",
+            "src": "https://www.dogalize.com/wp-content/uploads/2017/06/La-sverminazione-e-la-pulizia-del-cucciolo-del-cane-2-800x400-800x400.jpg"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+          "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8
+          }
+        }
+      }
+}
